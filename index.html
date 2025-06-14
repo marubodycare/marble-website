@@ -26,7 +26,7 @@
   <meta name="author" content="marble ピックルボールクラブ">
   <title>marble｜長崎・佐世保のピックルボールクラブ</title>
 
-  <!-- OGPタグ（SNSシェア対策） -->
+  <!-- OGPタグ -->
   <meta property="og:title" content="marble｜佐世保ピックルボールクラブ">
   <meta property="og:description" content="佐世保で人気急上昇中のピックルボール！初心者も大歓迎！">
   <meta property="og:image" content="https://marble-pickleball-sasebo.netlify.app/marble-logo.jpg">
@@ -34,7 +34,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="marble ピックルボールクラブ">
 
-  <!-- 構造化データ（JSON-LD形式） -->
+  <!-- JSON-LD構造化データ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,7 +55,7 @@
   <!-- スタイル -->
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
       margin: 0;
       background-color: #f0f8ff;
       color: #333;
@@ -105,6 +105,21 @@
       width: 100%;
       height: 600px;
       border: none;
+    }
+    .instagram-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #e1306c;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .instagram-link img {
+      width: 20px;
+      height: 20px;
     }
     @media (max-width: 600px) {
       header h1 {
@@ -165,11 +180,15 @@
   <section id="contact">
     <h2>お問い合わせ</h2>
     <p>メール: orangest.aki.101@gmail.com</p>
-    <p>Instagram：<a href="https://www.instagram.com/marble_pickleball.sasebo/?hl=ja" target="_blank" rel="noopener noreferrer">@marble_pickleball.sasebo</a></p>
+    <p>
+      <a class="instagram-link" href="https://www.instagram.com/marble_pickleball.sasebo/?hl=ja" target="_blank" rel="noopener noreferrer">
+        <img src="insta-icon.png" alt="Instagramアイコン">
+        @marble_pickleball.sasebo
+      </a>
+    </p>
   </section>
 
   <footer>
-    <!-- アクセスカウンター -->
     <div style="margin-bottom: 1rem;">
       <div id="sfce4lzw1xnrxqucbwk55fmx6ku1skgna9j"></div>
       <script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=e4lzw1xnrxqucbwk55fmx6ku1skgna9j&down=async" async></script>
@@ -182,7 +201,6 @@
 
     <p>&copy; 2024 marble ピックルボールクラブ（佐世保）</p>
 
-    <!-- スポンサー表示 -->
     <div style="margin-top: 1rem;">
       <p style="margin: 0.5rem 0;">運営元・メインスポンサー：</p>
       <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem;">
