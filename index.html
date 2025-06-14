@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
   <link rel="manifest" href="site.webmanifest">
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Googleタグ（Google Analytics） -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4P1TH3LME"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -26,6 +26,33 @@
   <meta name="author" content="marble ピックルボールクラブ">
   <title>marble｜長崎・佐世保のピックルボールクラブ</title>
 
+  <!-- OGPタグ（SNSシェア対策） -->
+  <meta property="og:title" content="marble｜佐世保ピックルボールクラブ">
+  <meta property="og:description" content="佐世保で人気急上昇中のピックルボール！初心者も大歓迎！">
+  <meta property="og:image" content="https://あなたのドメイン/logo.jpg"> <!-- 画像URLは要修正 -->
+  <meta property="og:url" content="https://あなたのドメイン"> <!-- サイトURLを入力 -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="marble ピックルボールクラブ">
+
+  <!-- 構造化データ（JSON-LD形式） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsClub",
+    "name": "marble ピックルボールクラブ",
+    "url": "https://あなたのドメイン",  // ← あなたのURLに書き換えてください
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "佐世保市",
+      "addressRegion": "長崎県",
+      "addressCountry": "JP"
+    },
+    "description": "長崎県佐世保市のピックルボールクラブ。初心者も大歓迎！",
+    "sport": "Pickleball"
+  }
+  </script>
+
+  <!-- スタイル（以下はそのままでOK） -->
   <style>
     body {
       font-family: sans-serif;
@@ -107,8 +134,6 @@
     }
   </style>
 </head>
- 
-
 <body>
   <header>
     <img src="marble.logo.jpg" alt="marbleロゴ">
